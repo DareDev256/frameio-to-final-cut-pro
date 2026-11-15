@@ -29,8 +29,8 @@ from pathlib import Path
 
 REPO = Path(__file__).resolve().parent.parent
 DOCS = REPO / "docs"
-SITE = "https://daredev256.github.io/cutreview/"
-GITHUB = "https://github.com/DareDev256/cutreview"
+SITE = "https://daredev256.github.io/frameio-to-final-cut-pro/"
+GITHUB = "https://github.com/DareDev256/frameio-to-final-cut-pro"
 BLOB = GITHUB + "/blob/main/"
 PYPI = "https://pypi.org/project/cutreview/"
 FCP_MCP = "https://github.com/DareDev256/fcp-mcp-server"
@@ -625,7 +625,7 @@ def guards(t: dict[str, str]) -> list[str]:
     if f"<!-- mcp-name: {server.get('name')} -->" not in t["readme"]:
         bad.append("README has no mcp-name line matching server.json; the registry will refuse the package")
 
-    raw = f"https://raw.githubusercontent.com/DareDev256/cutreview/v{ver}/"
+    raw = f"https://raw.githubusercontent.com/DareDev256/frameio-to-final-cut-pro/v{ver}/"
     for img in re.findall(r"!\[[^\]]*\]\(([^)\s]+)\)", t["readme"]):
         if "img.shields.io" in img:
             continue

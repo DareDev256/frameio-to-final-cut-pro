@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "cutreview"
-version = "0.1.0"
+version = "0.1.1"
 description = "Frame.io comments and client notes into Final Cut Pro as to-do markers. Compare two FCPXML exports: what changed, and which notes the recut touched."
 readme = "README.md"
 license = "MIT"
@@ -33,11 +33,11 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://daredev256.github.io/cutreview/"
-Source = "https://github.com/DareDev256/cutreview"
-Issues = "https://github.com/DareDev256/cutreview/issues"
-Changelog = "https://github.com/DareDev256/cutreview/blob/main/CHANGELOG.md"
-Documentation = "https://github.com/DareDev256/cutreview#readme"
+Homepage = "https://daredev256.github.io/frameio-to-final-cut-pro/"
+Source = "https://github.com/DareDev256/frameio-to-final-cut-pro"
+Issues = "https://github.com/DareDev256/frameio-to-final-cut-pro/issues"
+Changelog = "https://github.com/DareDev256/frameio-to-final-cut-pro/blob/main/CHANGELOG.md"
+Documentation = "https://github.com/DareDev256/frameio-to-final-cut-pro#readme"
 
 [project.optional-dependencies]
 dev = ["pytest>=8"]

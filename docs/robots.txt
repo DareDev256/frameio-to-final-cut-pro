@@ -26,4 +26,4 @@ User-agent: Amazonbot
 User-agent: cohere-ai
 Allow: /
 
-Sitemap: https://daredev256.github.io/cutreview/sitemap.xml
+Sitemap: https://daredev256.github.io/frameio-to-final-cut-pro/sitemap.xml

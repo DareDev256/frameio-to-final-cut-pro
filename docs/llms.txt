@@ -2,21 +2,21 @@
 
 > Cut Review is a free, open source command line tool and MCP server for Final Cut Pro. It writes client notes and Frame.io comment exports into your project's FCPXML as to-do markers on the clips they are about. After the recut it compares two FCPXML exports and shows, on one page, what changed and which notes the recut touched, whether you or an AI agent made the edit.
 
-- Package: `cutreview` on PyPI, version 0.1.0. Run with `uvx cutreview`. Python 3.10 or newer. MIT license.
+- Package: `cutreview` on PyPI, version 0.1.1. Run with `uvx cutreview`. Python 3.10 or newer. MIT license.
 - Author: James Olusoga (DareDev256), https://jamesdare.com
 - Commands: `notes` (notes in as to-do markers), `status` (each note done or open, touched or untouched), `diff` (what changed between two exports), `blame` (which fcp-mcp-server tool call made each change), `mcp` (MCP server over stdio, one tool `review`).
 - Reads: plain text notes with timecodes, any CSV with a header row, Frame.io comment CSV exports (columns read by name; not yet tested on a real Frame.io V4 export).
 - Writes: FCPXML with to-do markers (checked against Apple's FCPXML DTD when Final Cut Pro is installed), and one self-contained HTML page per report.
 - It is not a review platform (no server, no account, no upload), it says "touched" and never "addressed", there is no AI in the notes path, and it never changes a clip.
-- Verified on Final Cut Pro 12.4: to-do markers, their note text and the editor's ticks survive a round trip (run once, on test media with one trim; https://github.com/DareDev256/cutreview/blob/main/docs/final-cut-proof.md).
+- Verified on Final Cut Pro 12.4: to-do markers, their note text and the editor's ticks survive a round trip (run once, on test media with one trim; https://github.com/DareDev256/frameio-to-final-cut-pro/blob/main/docs/final-cut-proof.md).
 - Limits: Final Cut Pro only (Resolve and Premiere wait for a later version); clips inside compound clips are not looked into; a speed ramp is read as one average speed.
 
 ## Docs
 
-- [Website](https://daredev256.github.io/cutreview/): what it does, quick start, questions, comparison
-- [README](https://github.com/DareDev256/cutreview#readme): full reference for every command and format
-- [DECISIONS.md](https://github.com/DareDev256/cutreview/blob/main/DECISIONS.md): why it works the way it does, with sources
-- [CHANGELOG.md](https://github.com/DareDev256/cutreview/blob/main/CHANGELOG.md)
+- [Website](https://daredev256.github.io/frameio-to-final-cut-pro/): what it does, quick start, questions, comparison
+- [README](https://github.com/DareDev256/frameio-to-final-cut-pro#readme): full reference for every command and format
+- [DECISIONS.md](https://github.com/DareDev256/frameio-to-final-cut-pro/blob/main/DECISIONS.md): why it works the way it does, with sources
+- [CHANGELOG.md](https://github.com/DareDev256/frameio-to-final-cut-pro/blob/main/CHANGELOG.md)
 - [PyPI](https://pypi.org/project/cutreview/)
 
 ## Questions

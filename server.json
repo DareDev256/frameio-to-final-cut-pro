@@ -3,10 +3,10 @@
   "name": "io.github.DareDev256/cutreview",
   "title": "Cut Review",
   "description": "Frame.io comments and client notes as Final Cut Pro to-do markers, then diff two FCPXML exports.",
-  "websiteUrl": "https://daredev256.github.io/cutreview/",
+  "websiteUrl": "https://daredev256.github.io/frameio-to-final-cut-pro/",
   "icons": [
     {
-      "src": "https://daredev256.github.io/cutreview/assets/icon-512.png",
+      "src": "https://daredev256.github.io/frameio-to-final-cut-pro/assets/icon-512.png",
       "mimeType": "image/png",
       "sizes": [
         "512x512"
@@ -14,16 +14,16 @@
     }
   ],
   "repository": {
-    "url": "https://github.com/DareDev256/cutreview",
+    "url": "https://github.com/DareDev256/frameio-to-final-cut-pro",
     "source": "github"
   },
-  "version": "0.1.0",
+  "version": "0.1.1",
   "packages": [
     {
       "registryType": "pypi",
       "registryBaseUrl": "https://pypi.org",
       "identifier": "cutreview",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "runtimeHint": "uvx",
       "transport": {
         "type": "stdio"

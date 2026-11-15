@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.1.1 (2026-11-15)
+
+The repository moved to github.com/DareDev256/frameio-to-final-cut-pro, named for what editors search ("frame.io final cut plugin", "import frame.io comments into final cut pro"). Old github.com links redirect. The website moved to daredev256.github.io/frameio-to-final-cut-pro/ (GitHub does not redirect a project site; the old address now answers 404). No behaviour change: the package, the `cutreview` command and the MCP registry name `io.github.DareDev256/cutreview` stay the same.
+
+Changed:
+
+- Project URLs on PyPI, the MCP registry entry's repository and website, the site's canonical, Open Graph, JSON-LD, sitemap and llms.txt now point at the new names.
+- `tests/test_version.py`: the version in pyproject.toml, `cutreview.__version__` and both places in server.json must agree, and every project URL must use the new repository name.
+
 ## 0.1.0 (2026-11-13)
 
 First version.
