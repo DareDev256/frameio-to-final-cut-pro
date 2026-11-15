@@ -8,7 +8,6 @@ a 404 (the repository was renamed to frameio-to-final-cut-pro on
 """
 import json
 import re
-import tomllib
 from pathlib import Path
 
 import cutreview
@@ -19,7 +18,13 @@ SITE = "https://daredev256.github.io/frameio-to-final-cut-pro/"
 
 
 def _pyproject():
-    return tomllib.loads((ROOT / "pyproject.toml").read_text())
+    """The two pyproject fields these tests read. tomllib is 3.11+ and this
+    package supports 3.10, so read them with a pattern, not a TOML parser."""
+    text = (ROOT / "pyproject.toml").read_text()
+    version = re.search(r'^version\s*=\s*"([^"]+)"', text, re.M).group(1)
+    block = re.search(r"^\[project\.urls\]\n(.*?)(?:^\[|\Z)", text, re.M | re.S).group(1)
+    urls = dict(re.findall(r'^(\w+)\s*=\s*"([^"]+)"', block, re.M))
+    return {"project": {"version": version, "urls": urls}}
 
 
 def test_every_version_location_agrees():
