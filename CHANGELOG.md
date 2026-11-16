@@ -2,6 +2,7 @@
 
 ## Unreleased
 
+- Site: title and description lead with the searched phrase ("Frame.io to Final Cut Pro", "no plugin"; Google autocomplete 2026-11-15 shows "frame io final cut pro plugin"); Search Console verification file; robots.txt comment names the real path.
 - README: a "More from the same author" section before License (fcp-mcp-server, the prompt generator, clickfix-protection-macos, jackpoint, the profile). PyPI shows it from the next release.
 
 ## 0.1.1 (2026-11-15)

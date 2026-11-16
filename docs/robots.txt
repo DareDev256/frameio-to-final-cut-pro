@@ -1,5 +1,5 @@
 # Cut Review welcomes every search engine, answer engine and AI crawler.
-# Note: crawlers read robots.txt only at a host's root, and this file sits under /cutreview/.
+# Note: crawlers read robots.txt only at a host's root, and this file sits under /frameio-to-final-cut-pro/.
 # A missing robots.txt at daredev256.github.io/ is read by crawlers as allow all.
 
 User-agent: *

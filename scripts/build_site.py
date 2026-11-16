@@ -36,10 +36,10 @@ PYPI = "https://pypi.org/project/cutreview/"
 FCP_MCP = "https://github.com/DareDev256/fcp-mcp-server"
 AUTHOR_URL = "https://jamesdare.com"
 
-TITLE = "Cut Review: Frame.io comments to Final Cut Pro to-do markers"
+TITLE = "Frame.io to Final Cut Pro: comments as to-do markers, Cut Review"
 DESCRIPTION = (
-    "Turn Frame.io comments and client notes into Final Cut Pro to-do markers, "
-    "then compare two FCPXML exports to see what changed. Free and open source."
+    "Free, no plugin: turn Frame.io comments and client notes into Final Cut Pro "
+    "to-do markers, then see which notes the recut touched. Open source, no upload."
 )
 H1 = "Frame.io comments and client notes as Final Cut Pro to-do markers"
 DEFINITION = (
@@ -487,7 +487,7 @@ def sitemap(date: str) -> str:
 def robots() -> str:
     named = "\n".join(f"User-agent: {b}" for b in BOTS)
     return f"""# Cut Review welcomes every search engine, answer engine and AI crawler.
-# Note: crawlers read robots.txt only at a host's root, and this file sits under /cutreview/.
+# Note: crawlers read robots.txt only at a host's root, and this file sits under /frameio-to-final-cut-pro/.
 # A missing robots.txt at daredev256.github.io/ is read by crawlers as allow all.
 
 User-agent: *
