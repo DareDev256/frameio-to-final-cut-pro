@@ -1,5 +1,9 @@
 # Changelog
 
+## Unreleased
+
+- README: a "More from the same author" section before License (fcp-mcp-server, the prompt generator, clickfix-protection-macos, jackpoint, the profile). PyPI shows it from the next release.
+
 ## 0.1.1 (2026-11-15)
 
 The repository moved to github.com/DareDev256/frameio-to-final-cut-pro, named for what editors search ("frame.io final cut plugin", "import frame.io comments into final cut pro"). Old github.com links redirect. The website moved to daredev256.github.io/frameio-to-final-cut-pro/ (GitHub does not redirect a project site; the old address now answers 404). No behaviour change: the package, the `cutreview` command and the MCP registry name `io.github.DareDev256/cutreview` stay the same.
