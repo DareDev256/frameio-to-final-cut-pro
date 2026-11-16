@@ -214,6 +214,15 @@ A note is touched when a change lies within one second (`--reach`) of the note's
 
 Built on [fcp-mcp-server](https://github.com/DareDev256/fcp-mcp-server) (MIT), which supplies the FCPXML parser, the writer's element walker, the write journal and the DTD check. The fixtures `fixtures/music-video.fcpxml` and `fixtures/sample.fcpxml` come from its examples; its license is in [`fixtures/LICENSE-fcp-mcp-server`](https://github.com/DareDev256/frameio-to-final-cut-pro/blob/main/fixtures/LICENSE-fcp-mcp-server).
 
+## More from the same author
+
+- **[fcp-mcp-server](https://github.com/DareDev256/fcp-mcp-server):** the Final Cut Pro MCP server Cut Review is built on. Claude reads and edits real Final Cut timelines through FCPXML, and journals every write so it can be undone: `uvx fcp-mcp-server`.
+- **[Ultimate Image & Video Prompt Generator](https://github.com/DareDev256/Ultimate-Image-Video-Prompt-Generator):** a prompt workbench for nine image and video engines, every suggestion credited to the creator it came from. [Live](https://prompts.tdotssolutionsz.com).
+- **[clickfix-protection-macos](https://github.com/DareDev256/clickfix-protection-macos):** defensive tools for macOS against paste-this-command (ClickFix) attacks.
+- **[jackpoint](https://github.com/DareDev256/jackpoint):** one command installs Claude Code, Gemini CLI, Codex CLI and other AI coding tools on a Mac.
+
+Everything else is on [my GitHub profile](https://github.com/DareDev256).
+
 ## License
 
 MIT. Copyright (c) 2026 James Olusoga (DareDev256), [jamesdare.com](https://jamesdare.com).
